@@ -10,7 +10,6 @@ public class Member {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; // id 는 임의의 값
-
     private String name; // 이름
 
     public Long getId() {
