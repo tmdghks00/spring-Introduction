@@ -10,7 +10,7 @@ import java.util.*;
  */
 // @Repository
 public class MemoryMemberRepository implements MemberRepository {
-    private static Map<Long, Member> store = new HashMap<>(); //회원를 저장할 하나의 데이터베이스라고 생각하면 됨.
+    private static Map<Long, Member> store = new HashMap<>(); // 회원을 저장할 하나의 데이터베이스라고 생각하면 됨.
 
     private static long sequence = 0L; //일련 번호
 
